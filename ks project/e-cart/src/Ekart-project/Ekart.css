@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+
+.headerss{
+    /* font-family: "Merienda", cursive; */
+    font-family: "Alkatra", system-ui;
+    text-shadow: 3px 4px 5px rgb(193, 191, 193);
+}
+ .ft_head{
+    /* font-family:"Nova Square", sans-serif ; */
+    font-family: "Merienda", cursive;
+    text-shadow: 3px 4px 3px rgb(170, 156, 170);
+    
+}
+.titlee{
+    font-family: "Alkatra", system-ui;
+    
+}
+
+.navv_list h5{
+position: relative;
+font-family: "Merienda", cursive;
+text-shadow: 3px 4px 5px rgb(170, 156, 170);
+}
+.navv_list h5::after{
+position: absolute;
+left: 0;
+content: '';
+bottom: 0;
+width: 0;
+height: 2px;
+background-color:rgb(25, 240, 21); /* You can use any color */
+transition: width 0.9s ease;
+}
+.navv_list h5:hover::after{
+    width: 100%;
+}
+/* .cardy{
+    box-shadow: 10px 10px 5px rgb(13, 13, 11) !important;
+} */
